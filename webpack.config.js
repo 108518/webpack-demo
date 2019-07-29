@@ -40,7 +40,7 @@ module.exports = {
       hash: true,
       minify: {
         removeComments: true, //是否去除注释
-        collapseWhitespace: false //是否压缩页面内容
+        collapseWhitespace: true //是否压缩页面内容
       }
       }),
     new HtmlWebpackPlugin({
